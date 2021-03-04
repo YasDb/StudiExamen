@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+body {
+    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(114,79,252,1) 0%, rgba(252,176,69,1) 100%);
+    background-size: 400% 400%;
+    position: relative;
+    -webkit-animation: change 10s ease-in-out infinite;
+    -moz-animation: change 10s ease-in-out infinite;
+}
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+
+
+.navbar-brand img {
+    height: 80px;
+}
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-link{
+    color :black !important;
+    text-transform: uppercase;
+    transition: all 1s;
+}
+
+.nav-link:hover {
+    opacity: 0.25;
+}
+
+.navbar .navbar-toggler {
+    outline: none ;
+    border: none;
+    
+}
+
+/* BANNER */
+
+#banner {
+    color: white;
+    padding-top: 80px;
+}
+
+.banner-title {
+    font-size : 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+#button {
+    margin: 50px;
+    padding: 10px 100px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.img-fluid {
+    margin : 20px;
+}
+.bottom-img {
+    width: 100%;
+}
+
+.col-md-6 {
+    text-align: center;
+}
+
+/* ACTU PAGE SLIDE */
+
+.carousel-item {
+    height: 32rem;
+    background: black;
+    margin-top: 20px;
+    color: black;
+    position: relative ;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 3px 26px -2px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 1px 3px 26px -2px rgba(0,0,0,0.63);
+    -moz-box-shadow: 1px 3px 26px -2px rgba(0,0,0,0.63);
+}
+
+.carousel-item .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px ;
+}
+
+
+h1 {
+    text-align: center;
+}
+h1 span {
+    background-color: white;
+    
+}
+
+p {
+    text-align: center;
+}
+p span {
+    background-color: white;
+    
+}
+
+/* CONTACT */
+#banner-contact {
+    color: white;
+    padding-top: 80px;
+}
+
+.title-banner {
+    font-size : 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+  @-webkit-keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+@-moz-keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
