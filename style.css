@@ -11,12 +11,10 @@ body {
     -moz-animation: change 10s ease-in-out infinite;
 }
 #nav-bar {
-    position: sticky;
+    position: static;
     top: 0;
     z-index: 10;
-    
 }
-
 
 .navbar-brand img {
     height: 80px;
@@ -104,20 +102,17 @@ body {
 
 h1 {
     text-align: center;
+    
 }
-h1 span {
+span {
+    
     background-color: white;
     
 }
-
-p {
+ p {
     text-align: center;
-}
-p span {
-    background-color: white;
-    
-}
-
+ }
+ 
 /* CONTACT */
 #banner-contact {
     color: white;
